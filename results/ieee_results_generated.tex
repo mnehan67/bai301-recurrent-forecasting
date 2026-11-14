@@ -1,0 +1,21 @@
+% GENERATED FROM REAL RUN LOGS. Never hand-enter invented results.
+% This table selects RNN/LSTM/GRU settings using validation-only RMSE.
+\begin{table*}[t]
+\centering
+\caption{Held-out free-running forecasting performance (mean $\pm$ SD over three seeds).}
+\begin{tabular}{llrrrr}
+\hline
+Dataset & Model & RMSE@1 & RMSE@100 & Rollout RMSE & Train time (s) \\
+\hline
+electricity & GRU & 2.59e+04 $\pm$ 2e+03 & 1.58e+05 $\pm$ 2.8e+04 & 1.06e+05 $\pm$ 1.2e+04 & 28.1 $\pm$ 0.26 \\
+electricity & LSTM & 3.44e+05 $\pm$ 1.6e+04 & 3.41e+05 $\pm$ 3.8e+03 & 3.39e+05 $\pm$ 4.9e+03 & 29.3 $\pm$ 0.51 \\
+electricity & RNN & 1.51e+05 $\pm$ 5.8e+03 & 2.1e+05 $\pm$ 8.5e+03 & 1.98e+05 $\pm$ 2.4e+03 & 27.7 $\pm$ 0.34 \\
+electricity & ESN (500.0) & 2.42e+04 $\pm$ 9.2e+02 & 2.18e+05 $\pm$ 4.3e+04 & 2.46e+05 $\pm$ 1.4e+05 & 0.497 $\pm$ 0.19 \\
+\hline
+mg & GRU & 0.0527 $\pm$ 0.0092 & 0.186 $\pm$ 0.031 & 0.132 $\pm$ 0.0093 & 29.4 $\pm$ 0.27 \\
+mg & LSTM & 0.0153 $\pm$ 0.0043 & 0.18 $\pm$ 0.016 & 0.126 $\pm$ 0.013 & 32.2 $\pm$ 0.049 \\
+mg & RNN & 0.0503 $\pm$ 0.0078 & 0.17 $\pm$ 0.0091 & 0.118 $\pm$ 0.0032 & 24.4 $\pm$ 0.14 \\
+mg & ESN (1000.0) & 0.000459 $\pm$ 1.5e-05 & 0.0101 $\pm$ 0.0055 & 0.0047 $\pm$ 0.0017 & 1.34 $\pm$ 0.17 \\
+\hline
+\end{tabular}
+\end{table*}

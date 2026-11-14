@@ -1,0 +1,57 @@
+{
+  "dataset": "electricity",
+  "arch": "ESN",
+  "selection": "validation free-running RMSE",
+  "trials": [
+    {
+      "params": {
+        "rho": 0.7,
+        "leak": 0.3,
+        "ridge": 0.0001
+      },
+      "score": 0.12817460905905248,
+      "seconds": 0.3759514589999924
+    },
+    {
+      "params": {
+        "rho": 0.9,
+        "leak": 0.5,
+        "ridge": 0.0001
+      },
+      "score": 0.5925740330454785,
+      "seconds": 0.40287763800000675
+    },
+    {
+      "params": {
+        "rho": 0.9,
+        "leak": 0.8,
+        "ridge": 0.001
+      },
+      "score": 0.19171157310293202,
+      "seconds": 0.3899413979999906
+    },
+    {
+      "params": {
+        "rho": 1.05,
+        "leak": 0.3,
+        "ridge": 0.001
+      },
+      "score": 0.11375862960300939,
+      "seconds": 0.6167161429999908
+    },
+    {
+      "params": {
+        "rho": 0.7,
+        "leak": 0.8,
+        "ridge": 0.01
+      },
+      "score": 0.2909435034872317,
+      "seconds": 0.40644074599998703
+    }
+  ],
+  "chosen_params": {
+    "rho": 1.05,
+    "leak": 0.3,
+    "ridge": 0.001
+  }
+}

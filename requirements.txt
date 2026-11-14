@@ -1,0 +1,10 @@
+# Local environment: CPU PyTorch is sufficient for smoke tests.
+# Kaggle's maintained PyTorch image already has these dependencies.
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+matplotlib>=3.7,<4
+psutil>=5.9,<9
+torch>=2.3,<3
+statsmodels>=0.14,<1
+seaborn>=0.13,<1

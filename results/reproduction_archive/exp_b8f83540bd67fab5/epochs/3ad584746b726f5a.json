@@ -1,0 +1,216 @@
+[
+  {
+    "epoch": 1,
+    "train_epoch_seconds": 0.9684960929998851,
+    "mean_train_loss": 0.6526664569682907,
+    "grad_norm_mean_preclip": 1.029363214969635,
+    "optimizer_updates_so_far": 8,
+    "val_rmse_rollout_norm": 1.0087432763519368
+  },
+  {
+    "epoch": 2,
+    "train_epoch_seconds": 1.0318610130007073,
+    "mean_train_loss": 0.14722769417858217,
+    "grad_norm_mean_preclip": 0.48796169832348824,
+    "optimizer_updates_so_far": 16
+  },
+  {
+    "epoch": 3,
+    "train_epoch_seconds": 0.916274840999904,
+    "mean_train_loss": 0.07795387607620796,
+    "grad_norm_mean_preclip": 0.23072779830545187,
+    "optimizer_updates_so_far": 24
+  },
+  {
+    "epoch": 4,
+    "train_epoch_seconds": 0.9221457940002438,
+    "mean_train_loss": 0.059699167341022985,
+    "grad_norm_mean_preclip": 0.15225202962756157,
+    "optimizer_updates_so_far": 32
+  },
+  {
+    "epoch": 5,
+    "train_epoch_seconds": 0.9411852390003332,
+    "mean_train_loss": 0.043353295608540066,
+    "grad_norm_mean_preclip": 0.06696339044719934,
+    "optimizer_updates_so_far": 40
+  },
+  {
+    "epoch": 6,
+    "train_epoch_seconds": 0.9222747379999419,
+    "mean_train_loss": 0.03655101690674201,
+    "grad_norm_mean_preclip": 0.059762499993667006,
+    "optimizer_updates_so_far": 48
+  },
+  {
+    "epoch": 7,
+    "train_epoch_seconds": 0.9350464829994962,
+    "mean_train_loss": 0.031220784798279055,
+    "grad_norm_mean_preclip": 0.03523090295493603,
+    "optimizer_updates_so_far": 56
+  },
+  {
+    "epoch": 8,
+    "train_epoch_seconds": 0.93272727799922,
+    "mean_train_loss": 0.027386623001802946,
+    "grad_norm_mean_preclip": 0.036258749198168516,
+    "optimizer_updates_so_far": 64
+  },
+  {
+    "epoch": 9,
+    "train_epoch_seconds": 0.9252190480001445,
+    "mean_train_loss": 0.02353285189565213,
+    "grad_norm_mean_preclip": 0.029932629549875855,
+    "optimizer_updates_so_far": 72
+  },
+  {
+    "epoch": 10,
+    "train_epoch_seconds": 0.9330324980001024,
+    "mean_train_loss": 0.020071385806659237,
+    "grad_norm_mean_preclip": 0.03757423907518387,
+    "optimizer_updates_so_far": 80,
+    "val_rmse_rollout_norm": 0.724593771905057
+  },
+  {
+    "epoch": 11,
+    "train_epoch_seconds": 1.003543300000274,
+    "mean_train_loss": 0.017096390005463036,
+    "grad_norm_mean_preclip": 0.04292277921922505,
+    "optimizer_updates_so_far": 88
+  },
+  {
+    "epoch": 12,
+    "train_epoch_seconds": 0.9780829230003292,
+    "mean_train_loss": 0.014795885879721027,
+    "grad_norm_mean_preclip": 0.03015696071088314,
+    "optimizer_updates_so_far": 96
+  },
+  {
+    "epoch": 13,
+    "train_epoch_seconds": 0.9757956939993164,
+    "mean_train_loss": 0.013267542162793688,
+    "grad_norm_mean_preclip": 0.04895192896947265,
+    "optimizer_updates_so_far": 104
+  },
+  {
+    "epoch": 14,
+    "train_epoch_seconds": 0.9304997720000756,
+    "mean_train_loss": 0.012342179778897844,
+    "grad_norm_mean_preclip": 0.06037749024108052,
+    "optimizer_updates_so_far": 112
+  },
+  {
+    "epoch": 15,
+    "train_epoch_seconds": 0.9132328579999012,
+    "mean_train_loss": 0.011936808848986402,
+    "grad_norm_mean_preclip": 0.0709315249696374,
+    "optimizer_updates_so_far": 120
+  },
+  {
+    "epoch": 16,
+    "train_epoch_seconds": 0.9144316289994094,
+    "mean_train_loss": 0.011765965775339282,
+    "grad_norm_mean_preclip": 0.09667934291064739,
+    "optimizer_updates_so_far": 128
+  },
+  {
+    "epoch": 17,
+    "train_epoch_seconds": 0.9173550539999269,
+    "mean_train_loss": 0.01124615541584717,
+    "grad_norm_mean_preclip": 0.08129089931026101,
+    "optimizer_updates_so_far": 136
+  },
+  {
+    "epoch": 18,
+    "train_epoch_seconds": 0.9315320109999448,
+    "mean_train_loss": 0.01075765527002659,
+    "grad_norm_mean_preclip": 0.05159240169450641,
+    "optimizer_updates_so_far": 144
+  },
+  {
+    "epoch": 19,
+    "train_epoch_seconds": 0.9251100589999623,
+    "mean_train_loss": 0.01093574250171514,
+    "grad_norm_mean_preclip": 0.09874727297574282,
+    "optimizer_updates_so_far": 152
+  },
+  {
+    "epoch": 20,
+    "train_epoch_seconds": 0.9240268229996218,
+    "mean_train_loss": 0.01102407445296194,
+    "grad_norm_mean_preclip": 0.10785350110381842,
+    "optimizer_updates_so_far": 160,
+    "val_rmse_rollout_norm": 0.5303979398241639
+  },
+  {
+    "epoch": 21,
+    "train_epoch_seconds": 0.9733180779994655,
+    "mean_train_loss": 0.010702545388085127,
+    "grad_norm_mean_preclip": 0.10035854950547218,
+    "optimizer_updates_so_far": 168
+  },
+  {
+    "epoch": 22,
+    "train_epoch_seconds": 0.9635888450002312,
+    "mean_train_loss": 0.010412318610178772,
+    "grad_norm_mean_preclip": 0.08285207999870181,
+    "optimizer_updates_so_far": 176
+  },
+  {
+    "epoch": 23,
+    "train_epoch_seconds": 1.0004386229993543,
+    "mean_train_loss": 0.010091068378642376,
+    "grad_norm_mean_preclip": 0.06634709099307656,
+    "optimizer_updates_so_far": 184
+  },
+  {
+    "epoch": 24,
+    "train_epoch_seconds": 0.9203867550004361,
+    "mean_train_loss": 0.010130008760825149,
+    "grad_norm_mean_preclip": 0.09554147813469172,
+    "optimizer_updates_so_far": 192
+  },
+  {
+    "epoch": 25,
+    "train_epoch_seconds": 0.9427613269999711,
+    "mean_train_loss": 0.009850697902948014,
+    "grad_norm_mean_preclip": 0.076748326420784,
+    "optimizer_updates_so_far": 200
+  },
+  {
+    "epoch": 26,
+    "train_epoch_seconds": 0.928964303999237,
+    "mean_train_loss": 0.009736544113366108,
+    "grad_norm_mean_preclip": 0.06661389954388142,
+    "optimizer_updates_so_far": 208
+  },
+  {
+    "epoch": 27,
+    "train_epoch_seconds": 0.9183307729999797,
+    "mean_train_loss": 0.00941462045739172,
+    "grad_norm_mean_preclip": 0.043693971587345004,
+    "optimizer_updates_so_far": 216
+  },
+  {
+    "epoch": 28,
+    "train_epoch_seconds": 0.9529039320004813,
+    "mean_train_loss": 0.010202888741332572,
+    "grad_norm_mean_preclip": 0.12299342127516866,
+    "optimizer_updates_so_far": 224
+  },
+  {
+    "epoch": 29,
+    "train_epoch_seconds": 0.9763358399995923,
+    "mean_train_loss": 0.010815726343935239,
+    "grad_norm_mean_preclip": 0.15247617685236037,
+    "optimizer_updates_so_far": 232
+  },
+  {
+    "epoch": 30,
+    "train_epoch_seconds": 0.9075827729993762,
+    "mean_train_loss": 0.010432836107611365,
+    "grad_norm_mean_preclip": 0.1426582271233201,
+    "optimizer_updates_so_far": 240,
+    "val_rmse_rollout_norm": 0.5449882509543157
+  }
+]

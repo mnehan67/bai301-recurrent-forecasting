@@ -1,0 +1,13 @@
+# Exact notebook methodology
+- Mode: full
+- C/H: 100/100
+- Epochs: 30, minibatch size: 64
+- Training origins: stride 25, capped at 512 per dataset, evenly selected
+- Evaluation origins: stride 100, capped at 48 per split
+- Full BPTT covers C+H-1 recurrent input steps (199 for C=H=100).
+- Mackey–Glass: Euler step 0.1, delay 17.0, after transient 2000.
+- ESN: sparse reservoir, fixed weights, readout fitted by ridge regression.
+- Selected epochs/configurations use validation; testing is always free-running.
+- Two Kaggle T4 workers train independent configurations on cuda:0 and cuda:1; no distributed synchronization.
+- ESN CPU RSS is process-level and can include allocations from earlier experiments.
+- **IMPORTANT:** Align the accompanying manuscript to these *implemented* settings, not prospective settings.

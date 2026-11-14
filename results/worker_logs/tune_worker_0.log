@@ -1,0 +1,4 @@
+[worker 0] tuning mg/RNN
+[worker 0] tuning mg/GRU
+[worker 0] tuning electricity/RNN
+[worker 0] tuning electricity/GRU

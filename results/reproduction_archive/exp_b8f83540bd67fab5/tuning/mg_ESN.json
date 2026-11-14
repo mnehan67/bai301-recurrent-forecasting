@@ -1,0 +1,57 @@
+{
+  "dataset": "mg",
+  "arch": "ESN",
+  "selection": "validation free-running RMSE",
+  "trials": [
+    {
+      "params": {
+        "rho": 0.7,
+        "leak": 0.3,
+        "ridge": 0.0001
+      },
+      "score": 0.02927758473118115,
+      "seconds": 0.8832967790000055
+    },
+    {
+      "params": {
+        "rho": 0.9,
+        "leak": 0.5,
+        "ridge": 0.0001
+      },
+      "score": 0.030973724829635344,
+      "seconds": 0.7406497769999874
+    },
+    {
+      "params": {
+        "rho": 0.9,
+        "leak": 0.8,
+        "ridge": 0.001
+      },
+      "score": 0.2846961245288397,
+      "seconds": 0.6032693020000011
+    },
+    {
+      "params": {
+        "rho": 1.05,
+        "leak": 0.3,
+        "ridge": 0.001
+      },
+      "score": 0.03686066993135713,
+      "seconds": 0.7187036040000123
+    },
+    {
+      "params": {
+        "rho": 0.7,
+        "leak": 0.8,
+        "ridge": 0.01
+      },
+      "score": 0.38584780862932644,
+      "seconds": 0.7604234930000189
+    }
+  ],
+  "chosen_params": {
+    "rho": 0.7,
+    "leak": 0.3,
+    "ridge": 0.0001
+  }
+}

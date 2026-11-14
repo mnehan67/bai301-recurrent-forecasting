@@ -1,0 +1,16 @@
+# Recomputed outputs and downloads (not source-controlled)
+outputs/
+data/
+*.local.json
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+*.log
+!results/worker_logs/*.log
+
+# Original Kaggle ZIP includes third-party downloaded source data.
+# Kept locally in the downloadable package but deliberately NOT pushed.
+local_only/

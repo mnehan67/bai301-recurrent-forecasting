@@ -1,0 +1,66 @@
+{
+  "PRESET": "full",
+  "OUTPUT_ROOT": "/kaggle/working/BAI301_Kaggle_Run/results",
+  "CONTEXT": 100,
+  "HORIZON": 100,
+  "DATASETS": [
+    "mg",
+    "electricity"
+  ],
+  "EPOCHS": 30,
+  "BATCH_SIZE": 64,
+  "RNN_HIDDEN": 64,
+  "TRAIN_STRIDE": 25,
+  "EVAL_STRIDE": 100,
+  "MAX_TRAIN_ORIGINS": 512,
+  "MAX_EVAL_ORIGINS": 48,
+  "VALIDATE_EVERY": 10,
+  "MG_N": 50000,
+  "MG_TRANSIENT": 2000,
+  "MG_DT": 0.1,
+  "MG_DELAY": 17.0,
+  "LR_CANDIDATES": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "TUNE_EPOCHS": 3,
+  "TUNE_TRAIN_ORIGINS": 128,
+  "TUNE_EVAL_ORIGINS": 12,
+  "ESN_FIT_STATES": 6000,
+  "ESN_TUNE_EVAL_ORIGINS": 12,
+  "ESN_WASHOUT": 100,
+  "ESN_DENSITY": 0.01,
+  "ESN_INPUT_SCALE": 0.5,
+  "ESN_CANDIDATES": [
+    {
+      "rho": 0.7,
+      "leak": 0.3,
+      "ridge": 0.0001
+    },
+    {
+      "rho": 0.9,
+      "leak": 0.5,
+      "ridge": 0.0001
+    },
+    {
+      "rho": 0.9,
+      "leak": 0.8,
+      "ridge": 0.001
+    },
+    {
+      "rho": 1.05,
+      "leak": 0.3,
+      "ridge": 0.001
+    },
+    {
+      "rho": 0.7,
+      "leak": 0.8,
+      "ridge": 0.01
+    }
+  ],
+  "ELECTRICITY_ZIP": null,
+  "RUN_TUNING": true
+}

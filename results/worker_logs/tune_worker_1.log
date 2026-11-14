@@ -1,0 +1,4 @@
+[worker 1] tuning mg/LSTM
+[worker 1] tuning mg/ESN
+[worker 1] tuning electricity/LSTM
+[worker 1] tuning electricity/ESN
